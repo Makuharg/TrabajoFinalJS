@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.conversor {
+    width: 580px;
+    height: 500px;
+    background-color: rgb(49, 47, 47);
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+hr {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.datosConversor {
+    background-color: grey;
+    width: 70%;
+    height: 355px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.input {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input h2 {
+    margin-bottom: 10px;
+    font-size: 1.7em;
+    color: #FFF;
+}
+
+.input input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
+
+.select {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.select h3 {
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.select select {
+    font-size: 1em;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button button {
+    padding: 10px;
+    width: 80%;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: rgb(19, 165, 165);
+    color: #FFF;
+    cursor: pointer;
+}
+
+.button h4 {
+    color: #FFF;
+    font-size: 1.3em;
+}
+
+
+
+
